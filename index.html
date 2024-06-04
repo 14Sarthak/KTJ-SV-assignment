@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Library</title>
+  <link rel="stylesheet" href="music-website.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header class="header">
+    <div class="left-section">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png" alt="Menu" class="hamburger-menu">
+        <img src="https://png.pngtree.com/png-clipart/20221027/ourmid/pngtree-music-logo-png-image_6389182.png" alt="Music Library Logo" class="logo">
+    </div>
+    
+    <div class="right-section">
+      <nav class="navbar">
+        <a href="#intro">Intro</a>
+        <a href="#featured-playlists">Featured Playlists</a>
+        <a href="#recommended-albums">Recommended Albums</a>
+        <a href="#user-reviews">User Reviews</a>
+    </nav>
+    </div>
+</header>
+
+
+<section id="intro" class="intro-section">
+<div class="intro-left">
+ <div class="music-library">
+  <h1>Beat Box</h1>
+ </div>
+ <div class="intro-subtitle">
+  <p>"Your Beats, Your Music, Your World"</p>
+ </div>
+ <button class="intro-button" onclick="document.getElementById('featured-playlists').scrollIntoView({behavior: 'smooth'})"">Go To Featured Playlists</button>
+</div>
+  <div class="intro-right">
+     <img class="intro-image" src="https://cdn.jim-nielsen.com/ios/512/beat-music-player-2013-04-22.png?rf=1024" alt="Intro">
+  </div>
+</div>
+</section>
+
+<section id="featured-playlists" >
+
+    <div class="featured-playlists-top">
+      <h1 class="featured-playlists-title">Featured Playlists</h1>
+      <p class="featured-playlists-subtitle">Check out our handpicked playlists</p>
+     </div>
+
+    <div class="featured-playlists-section">
+     <div class="playlists-1">
+    <div>
+      <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/660fb67ff435e73b0401cbff/COLLECTION_23209858755936.png">
+    </div>  
+    <div class="playlists-title-box">
+      <div class="playlists-title">Sunset chill
+        <button>15 songs</button>
+      </div>
+      <p>Sunset Chill is your ultimate destination for winding down and relaxing with the perfect blend of mellow tunes. With a diverse selection of genres and artists, our library ensures there's always something to suit your mood. Let Sunset Chill be the soundtrack to your peaceful sunsets and tranquil nights.</p>
+    </div>
+    </div>
+     <div class="playlists-2">
+      <div>
+        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/65a76685bcc4ae6d887b24f0/COLLECTION_9514872280475.png">
+
+      </div>
+      <div class="playlists-title-box">
+       <div class="playlists-title">Feel good weekends
+        <button>16 songs</button>
+       </div>  
+       <p>Feel Good Weekends is your go-to music library for creating the perfect weekend vibe. Whether you're planning a laid-back day at home, a lively get-together with friends, or a rejuvenating escape, our playlists are designed to uplift your spirits and set the mood.Dive into our collection and discover the ultimate tunes to enhance your leisure time. </p>
+      </div>
+     </div>
+     <div class="playlists-3">
+      <div>
+        <img src="https://img.wynk.in/unsafe/220x220/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/65a6b972166036475d381958/COLLECTION_1250924124317930.jpeg">
+      </div>
+      <div class="playlists-title-box">
+       <div class="playlists-title">Hip Hop essentials
+        <button>12 songs</button>
+       </div>  
+       <p>Hip Hop Essentials is your premier source for the foundational tracks and artists that define the genre. Delve into the rich history and vibrant culture of hip hop with our meticulously curated playlists featuring classic anthems, groundbreaking hits, and the freshest beats.  Explore, enjoy, and elevate your playlist with the essential tracks that continue to influence and inspire.</p>
+      </div>
+     </div>
+     <div class="playlists-4">
+      <div>
+        <img src="https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/discovery-prod-arsenal/arsenal/artworks/664cad2cdc1dfd090b42b710/COLLECTION_9695424178631.png">
+      </div>
+      <div class="playlists-title-box">
+        <div class="playlists-title">Retro soul soothers
+          <button>22 songs</button>
+        </div> 
+        <p>Retro Soul Soothers takes you on a nostalgic journey through the golden era of soul music. Our carefully curated collection features the timeless classics and soothing melodies that defined a generation.Immerse yourself in the warmth and charm of retro soul, and let these soothing tunes touch your heart and soul.</p>
+      </div>
+     </div>
+  </div>
+
+  </section>
+  </section>
+</section>
+
+<section id="recommended-albums" class="recommended-albums-section">
+  <div class="recommended-albumns-top">
+    <h1 class="recommended-albumns-title">Recommended Albumns</h1>
+    <p class="recommended-albumns-subtitle">Explore our top picks</p>
+   </div>
+   <div class="search-bar">
+    <input typr="text" placeholder="Search albumns">
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMHBhIIBxQVFhUWGBYbGRgYFRYWHhsVHRgXFx4aGRsgHSggJB8lJxUdIjEtJSktLi4uHR8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAMgAyAMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABwgDBQYBBAL/xABEEAACAgAEAgUHCAgEBwAAAAAAAQIDBAUGEQchEjFBUbEyYXGBkaHCCBMiI0JicsEUFRZDUoKi0SRzstImM1Njg5KT/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AJxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI+1/xRw2lE8Jh9rsRt5CfKL+++z0dYHeXWxordlzUUuttpJels4fPuLWW5PJ1q13TXZSukt/xcl7yvuqdaYzVFznmdsnHflXF9GC/lXX6Wc2BOWY8fue2W4P12W/lFfmaqXHvGOW8cNh/bN/mREZFTJrdRfsYEx4Tj7fGX+MwlbX3bJRfvTOqyfjjgMZJQzGFtD72lOPtjz9xXBx6L2kfkC6OUZ3h87p+fyq6FkfuyT9q60bIpPl2Y25ZiVicvsnXNdUoycX7iZNCca30o4HVq5ckr4rb/3ivFewCdAYMJioY3DRxOFkpQkt1KL3TXemZwAAAAAAAAAAAAAAAAABH/F7W37K5J+j4J/4i5NQ74x7Z/kvOBz3F3if+q3PItPS+t6rLU9+h92P3vP2EA2WO2bnY223zbe7372z22x2zc7Hu2223zbb7Wdfw50HbrLMe2FEGvnLNv6Y98n7gNFp7TuJ1Hjf0TJ65Tl2vqUV3yl1JEz6X4GU0QV2pLXZLtrr+jH0OXW/cSjp/IaNPZfHA5VBQgvNzb75PtZtAOfyvRuAymO2BwlK27XBSfte7NzHCQhHaMIL+VGcAa3G5FhsdDoYyiqa+9XF/kcXn/BzLs1g5YOMsPPvre8d/PF8vZsSMAKq614ZY3SyeIlH56lfvK03svvR64+BwxeCcVZHozW6fr5EJcVuFMY1zzvTEdtt5WUrq27ZQXigOJ4a8Q7tI4xYe9ueGk/pQ33cfvQ7n5u0s3luPrzPAwxuBkpVzScZLqaKUNbPZkp8E9cvJc0WSZjL6i57Rb6oWvq9T6gLHgAAAAAAAAAAAAAAAxXWqmqVtr2UU235lzbKi691HLVGqLsxn5LbjWu6tco/39ZYPjRnLybQlyqe07tql6JeV/SmVYA3Glsjs1HnlWVYPypvm+yMftSfoRbfTuSVadyivLMvW0ILu5uXbJ+dkXfJ506qMsuz+9fSsbhDzQj5TXpfgTKAAAAAAAAAPGtz0AVy436JWSZis6y2O1Nz2kkuULev1J9fp3IrjLoveJcjVmSQ1Fp6/Kr1/wAyL2801zi/U9inmJw7wuJnh7ltKDcWvOnswLT8J9TftPpGu29721fV2d7aXKXrW3vO1K5fJ7zp4PVVmVzf0b63t/mQ+kvd0ixoAAAAAAAAAAAAABB3yksc1+hZeur6yb90V+ZBpLvyj5f8TYZf9n45ETULe6MX3rxAuBoTLllWj8Hg4/Zqg3+KS6b98mb8wYKPQwkIx/hj4GcAAAAAAAAAAABVHjBlyy3iDiq4LZTcbF/Ok379y1xWv5QsUtcxku2ivxmByOgMd+rtaYLFJ9V0F6pPoP3MuEUoyeXQzaiS/wCpD/Ui6y8kD0AAAAAAAAAAAABAfyksM1mmDxXY65x9akn8RDUZdGXSRY/5QmV/pmj68fBc6LU3+Ca6D9/RK3AXR09iljsiw+Lh1TqrftijZEc8C88Wa6JhhJv6eHbg/wAHXF+x7eokYAAAAAAAAAAABWDjrjFiuIVkI/u664evbpP/AFFl8XiY4PCzxN72jCMpN9yS3ZTfUmZvOc+vzKz97ZOXqb5L2bAfrSuGeM1LhcNH7V1a/qRc4q3wRyp5nr6mxr6NKlY/SltH3tFpAAAAAAAAAAAAAADW6gyuOdZLdlt/k2QlH0Nrk/U9mU5zTATyzMbMDiltOuUotedPYuwQXx90Y1YtT4CPLlG9Lv6oz/J+oDieEmrf2V1RF4l/UXbQs7lz+jP1P3Nlp4SVkelB7p+vkUfJz4N8SUqoaez+e22ypsk+W3ZXJ+D9QE4A8T3PQAAAAAAAclr/AFtTo7LHbc1K6SfzdW/OT733RXeByPHjV6y/J/2fwcvrb19PZ8409383huV3PvzjNLc6zGzMMfLpWWNtv8l3JG20FpaerdQQy+rfob72S/hrXX631ICZvk/ad/V+n7M5xC2le10f8qPU/W9/YSwfPgsLHBYSGFwq6MIJRiu6KWyPoAAAAAAAAAAAAAABgxeGhjcNLDYqKlCaalF800+tGcAVZ4ncP7NI5i78MnLCzf0J7b9F/wAEvP3PtODT2e6Lr5ll9eaYKeDx8FOE1tKLW6aK98QeEd2Szlj9PqV1HNuPXOC9H2l50B+uH/F+3JIRy/P+ldStkp9c4L1+UveTpp/U2F1Fh1dlF0LPNvtJemL5opvKPRl0ZGXDYieFtVuGlKMl2xbT9qAu4CqOV8U80y2PQrxLmu62Kn73z95uocccyUdpRw7/APG/9wFlDBisVDB0u7FzjCK65Skkvays2O4y5riodGFldf4K0n7Xuchm+fYnOp9PNb7LPxSbXqXUgJ01txnoy6EsLpra6zmvnP3cX3r+LwIGzjNrs5x8sdmU5TnLrbfuXcvMfAdLpDReK1bilXlsH0F5Vsk1CK9Pa/MgOaJM4Oa6r0tj5YHMoxVVzW9iXOEupbvtj4DiHwqt0vgY5hl8ndUkvnXts4S7ZbL7PgRmBd6m1XVqyppppNNPdNPtTMpXLhNxNeRWxyfO5N4d8ozfN1N/D4FiKbVdWrKmmmk00900+1MDKAAAAAAAAAAAAAAAAAAOK1Zw0wOpm7r6/m7X+8r2i9/vLqkRPn3A7G4OTnlE67492/zcvY+XvLGgCnuYaJzDL3ti8JevOoOS9sdzVSyu+MtpU2//ADl/YuuebAUywum8Zi5dHDYa+Xoqn/Y6rJ+EOZ5lJOypUx77ZKP9K3ZaQARPpfgjhcvkr88m8RJfZS6MN/R1slDB4SGCw6w+DhGEI9UYpRSXoR9AAxXVK6t12pNNNNNbpp9jRXfizwyeRWSzjI4t4d85QS3dTfw+BY0xXVK6t12pNNNNNbpp9jQFISVuE3E15FZHJ88k3h3yjNvd1N/D4DizwyeRWSzjI4t4d+VBLd1N/D4EUgXeqtV1asqacWk01zTT6mmZSuXCbia8isjk+eSbw78mbe7qb+HwLEU2q6tWVNNNJpp7pp9qYGUAAAAAAAAAAAAAAAAAAAAAAAAAAAABitqV1brtScWmmnzTT600V34s8MnkVks4yOLeHfOUEt3U38PgWNMV1SurddqTTTTTW6afY0BSElbhNxNeRWRyfPJN4d8ozb3dTfw+A4s8MnkVss4ySLeHfOUFzdTfw+BFIF3qbVdWrKmmmk00900+1MylcuE3E15FZHJ88k3h3yjNvd1N/D4FiKbVdWrKmmmk00900+1MDKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxXVK6t12pNNNNNbpp9jRXfizwyeRWSzjI4t4d85QS3dTfw+BY0xXVK6t12pNNNNNbpp9jQFISVuE3E15FbHJ87k3h3yjN83U38PgOLPDJ5FZLOMji3h3zlBLd1N/D4EUgXeptV1asqaaaTTT3TT7UzKQn8nrUl2L+eyLFNyhXBTrb59Fb7OPo5pr1k2AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGK6pXVuu1JpppprdNPsZDGquB36XmUsRp+6FcJPd1zT+i3/C12eYmwAcXw40FXorBz2n85dZt057bLZdUYruO0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/Z" alt="icon">
+   </div>
+
+  <div class="recommended-albumns-1">
+    <div class="albumns-cover">
+      <img src="https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3.ap-south-1.amazonaws.com/wynk-music-cms/srch_wmg/20240503002053202/5021732254870/1714697751121/resources/5021732254870.jpg">
+      <button class="tooltip">Know More</button>
+    </div>
+    <div class="albumns-title">
+      <h2>Radical optimism</h2>
+      <p>Artists - Dua lipa , Chris Gehringer.</p>
+      <p>"Radical Optimism" is a vibrant exploration of psychedelic pop, marking a departure from the disco-centric sound of her previous album "Future Nostalgia." Released in May 2024, it's her third studio album and features collaborations with renowned artists like Chris gehringer. The album's title reflects Lipa's desire to infuse hope and optimism into the project, even amidst a world facing challenges.</p>
+    </div>
+  </div>
+  <div class="recommended-albumns-2">
+    <div class="albumns-cover">
+      <img src="https://img.wynk.in/unsafe/248x248/filters:no_upscale():strip_exif():format(webp)/http://s3-ap-southeast-1.amazonaws.com/bsbcms/srch_universalmusic/music/1519274953/srch_universalmusic_00602567410959-USUM71703515.jpg">
+      <button class="tooltip">Know More</button>
+    </div>
+    <div class="albumns-title">
+      <h2>Evolve</h2>
+      <p>Artists- Imagine dragons, Den Reynolds.</p>
+      <p>Imagine Dragons' Evolve was a critical and commercial success, reaching number two on the Billboard 200 chart and achieving triple-platinum certification in the US. The album's shift towards a more pop-oriented sound, with electronic and R&B influences, was a notable change from their previous rock-heavy albums. Singles like "Believer," "Thunder," and "Whatever It Takes" became massive hits, solidifying the band's place as one of the biggest rock acts of the decade.</p>
+    </div>
+  </div>
+</section>
+
+<section id="user-reviews" class="user-reviews-section">
+  <div class="user-review-title">
+    <h1>User Reviews</h1>
+    <p>Reviews from User's through their Experience</p>
+  </div>
+  <div class="user-review-sections">
+    <div class="review-cards">
+      <div>
+        <div class="review-cards-1">
+          <div class="review-img">
+          </div>
+          <div class="review">
+            <h2>Virat</h2>
+            <p>The app’s algorithms do a great job of suggesting songs and playlists based on my listening history.  </p>
+           
+          </div>
+        </div>
+      </div>
+      <div class="review-cards-2">
+        <div class="review-img">
+         
+         
+        </div>
+        <div class="review">
+          <h2>Rohan</h2>
+          <p>The app loads quickly, and I rarely experience any buffering issues, even with high-quality streams.  </p>
+         
+        </div>
+      </div>
+    </div>
+    <div class="user-review-form">
+      <form class="review-form">
+        <h3>Submit Your Review</h3>
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <textarea placeholder="Your review" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="social-media">
+      <a href="https://facebook.com" target="_blank"><img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADFUlEQVR4Ab2XA4ycURSFJ52pbdu27TZOEau2bRtRGaO2g9q2bdva3a8nufXg/cubfLuDO++eh3vmjc9LpOpKQJQSvcRqcUW8E1EG78RVsUb0FqVFwDGs58I1xAJx24qBgyjLZaGoKQJxLZ5bTBfPBHHkmZgh8sS2eDWxV8QIEoB9oobX4o3EFYEXUnYxUnSG5AYphL3+dy5XRRNX8epW3FvhgBUie18oPhwqjIFyo6HIUHstTbeQImqEK57Hlh1cpOhigzebBQt2wdFbcOcFPHkLj9/AzWdw/Ba0nW8rEmI78v5fPJmY7nXmWXrDtC3w+iMRY9AK8HcKOc5M4f9bQE3x1F3c/o9eB9+iAOIs4Jmo9au43/ocImPLWWkc3HsJEA8BxiLh95lrcUvgItDJBg0VMTHw6DXsugzrT8Km09Au9BkwzKzK+sxe+e5l+VPr/9LDhIwdF6HaBMjY0w5o2u5BXRDKMfv4zNu9Hb5MvWDPFYLiwxdoPReSdbS8v3GMu87nve+tt4/dIihuP4diw8yALN8z1ySAt67C5nKQrQ+cuE1QXH0M+QdBoJPlGp5W4L0EEBWpeIYeUHSYzbDyODh3n6C49QxqT7YcOaKwz+izLhExEQTYrGtOgksP4e4La78v3wkKeQL3X5kbCuXByTtQZpSN4RLwNlLbNZgG7z4T6zh7D/IMMNt2bcGVxBCw/pS1omMLrksAaxJDwIxttvwS4GzD3mGMSAOYuRy+YYfvwgP4+JWg+PLNzsnZe5Z3VrSfbxNwXN36SgBlxK3QXWDLmKu/UWIEnLlHUNx4ChXGKqcf5O5vpHd3wJ1fVuwXCyP6gHmBjCi8DxQYBFoxy/XmgouF3+PXsQ2YI5yAJ1BwsBX2flml9t/3Ab+YkYQCZgl/qCvZviQQsF/kDXcvrCGuJqKAa6Km62bcWFxNcAFWvGlwxfArsT8BBRxwzDzsNX2meB4PAc/FLJE3Pj9Oa4pFGvyOBER5EBAl7lifUyvBfiXLVsvkHUifiw9ZB1wX70UM4voT3hcewnUZ0Trl9hVlvBb+AQNcQrB9dXA4AAAAAElFTkSuQmCC" alt="facebook"></a>
+      <a href="https://twitter.com" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAABhUlEQVR4AczOA6xcARCF4X/us23btuLUQR3WZlhbQW3bto2gtm3b2J3GN4tY74uHh3okOi42Nj4AAUDwTvDEhisABCOAEAzYTBh0bN+lc5d0QgAhHPqX4Y4pkd367Zc+xMcXCPDg8TPwxeQH724Uj9N95GJ4pnHxby1xgCmV3v+GsFb7k0Iee7UjaQgmIYe9v9O4+wUKWaATyMPAViwvr1NnOQWDdTV5CHYSaKWLmaGDyvU4mTgQcllracaFr+9uk+yLM8k8fAJff0IUTghRVFu3M1ynkYk4nchiqqU3Ry05RDibMMhjtj6Ht3dJxVk/l1G64cspOusychBsCWm01WNM0jFs0sbEYUtIIuTXNco588OLh09JxE6wweuXEAvfL9PQus3+iU80N34KCaQyUOcxTTuSjEmMRI5rS9JwIZfD1t7ceo34YIpnuQ4nGwP8XXlq/fJZd9jE8KBHC5IwAELJ7dWrZ6fOuNhkgFgAEEIAwA1MQkw0AgDC/wnKycrKSQ2iPAkAVyNzq8rxicIAAAAASUVORK5CYII=" alt="Twitter"></a>
+      <a href="https://instagram.com" target="_blank"><img src="data:image/png;base64,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" alt="Instagram"></a>
+  </div>
+  <div class="footer-links">
+      <a href="terms.html" target="_blank">Terms and Conditions</a>
+      <a href="privacy.html" target="_blank">Privacy Policy</a>
+  </div>
+  <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})">Back to Top</button>
+</footer>
+  
+</body>
+</html>
